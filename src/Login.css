@@ -1,0 +1,44 @@
+.login {
+  background-color: #f1f2f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.login__logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.facebook__logo {
+  width: 150px;
+  padding-bottom: 30px;
+  padding-top: 120px;
+  object-fit: contain;
+}
+
+.facebook__word {
+  width: 200px;
+  padding-bottom: 150px;
+  cursor: pointer;
+}
+
+.sign__in > button {
+  outline: none;
+  border: none;
+  padding: 10px 120px;
+  background-color: #2e81f4;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  font-size: medium;
+}
+
+.sign__in > button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #2e81f4;
+  border: 2px solid #2e81f4;
+}

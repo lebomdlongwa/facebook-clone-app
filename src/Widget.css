@@ -1,0 +1,14 @@
+.widget__top {
+  display: flex;
+  padding: 10px;
+  background-color: white;
+}
+
+.widget__top__userDetails {
+  display: flex;
+}
+
+.widget__top > img {
+  width: 20px;
+  height: 20px;
+}
